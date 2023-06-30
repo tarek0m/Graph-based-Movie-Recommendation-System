@@ -23,6 +23,10 @@
 
 This project is the machine learning part of a graduation project for students of the Faculty of Engineering Alexandria University. The project is a hybrid movie recommender system that uses a graph-based approach to recommend movies to users based on their ratings and the ratings of other users. The project is divided into two parts: the machine learning part and the web application part. This repository contains the machine learning part of the project.
 
+The structure:
+
+![Process Structure](images/ghrs-structure.png)
+
 ## 📁 File Hierarchy <a name = "file_hierarchy"></a>
 
 The project contains the following hierarchy:

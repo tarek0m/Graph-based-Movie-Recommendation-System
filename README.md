@@ -33,12 +33,14 @@ The project contains the following hierarchy:
 
 ``` 
 ├───datasets
+│   ├───clusters            # Every User-Cluster and Cluster-Item matrix
 │   ├───combined-u          # The combined dataset of users similarity graph and users' side information
-│   └───ml-1m               # The MovieLens 1m dataset
-│   └───seen                # The dataset of ratings and side information of 5940 users (for the model)
-│   └───unseen              # The dataset of ratings and side information of 100 users (for the web applicationdatabase)
+│   ├───matrices            # User-Cluster and Cluster-Item matrices
+│   ├───ml-1m               # The MovieLens 1m dataset
+│   └───predictions         # Predicted User-Item ratings
 ├───images                  # The images used in the documentation
-└───models                  # The trained models of the encoder and Kmeans clustering
+├───models                  # The trained models of the encoder and Kmeans clustering
+└───reports                 # Logs for every predicted movie rating in each cluster
 ``` 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
@@ -57,28 +59,6 @@ The project also requires the following packages:
 * pandas 1.3.3
 * numpy 1.21.2
 * matplotlib 3.4.3
-
-You can install all the required packages by running the following command:
-
-```
-pip install -r requirements.txt
-```
-
-### Installing
-
-To get a local copy up and running follow these simple steps.
-
-1. Clone the repo
-
-```
-git clone
-```
-
-2. Install the required packages
-
-```
-pip install -r requirements.txt
-```
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
